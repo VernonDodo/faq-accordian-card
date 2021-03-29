@@ -1,0 +1,62 @@
+:root {
+  --veryDarkdesaturatedBlue: hsl(238, 29%, 16%);
+  --softRed: hsl(14, 88%, 65%);
+  --softViolet: hsl(273, 75%, 66%);
+  --softBlue: hsl(240, 73%, 65%);
+  --veryDarkgrayishBlue: hsl(237, 12%, 33%);
+  --darkGrayishBlue: hsl(240, 6%, 50%);
+  --lightGrayishBlue: hsl(240, 5%, 91%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(var(--softViolet),var(--softBlue));
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: .75rem;
+  height: 100vh;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: 3.125rem;
+  margin-left: 6.25rem;
+  transform: translate(-50%, -50%);
+}
+
+.faq-card {
+  background-color: #fff;
+  background-image: url('../images/illustration-woman-online-desktop.svg'),
+    url('../images/bg-pattern-desktop.svg');
+  background-size: 40%, 80%;
+  background-position: top 40% right 113%, top 69% right 340%;
+  background-repeat: no-repeat;
+  border-radius: 1.25rem;
+
+}
+
+.images {
+  height: 31.25rem;
+  width: 40%;
+}
+
+.faq-section {
+
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
