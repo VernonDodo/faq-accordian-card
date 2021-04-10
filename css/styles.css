@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --veryDarkdesaturatedBlue: hsl(238, 29%, 16%);
   --softRed: hsl(14, 88%, 65%);
@@ -8,49 +14,77 @@
   --lightGrayishBlue: hsl(240, 5%, 91%);
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 body {
-  background: linear-gradient(var(--softViolet),var(--softBlue));
+  background: linear-gradient(180deg,var(--softViolet) 0%, var(--softBlue) 100%) no-repeat;
+  background-size: cover;
   font-family: 'Kumbh Sans', sans-serif;
   font-size: .75rem;
-  height: 100vh;
+  position: relative;
 }
 
 .centered {
   position: relative;
   top: 50%;
-  left: 50%;
-  margin-top: 3.125rem;
-  margin-left: 6.25rem;
-  transform: translate(-50%, -50%);
+  transform: translateY(-25%);
 }
 
-.faq-card {
+.container {
   background-color: #fff;
-  background-image: url('../images/illustration-woman-online-desktop.svg'),
-    url('../images/bg-pattern-desktop.svg');
-  background-size: 40%, 80%;
-  background-position: top 40% right 113%, top 69% right 340%;
-  background-repeat: no-repeat;
-  border-radius: 1.25rem;
+  position: relative;
+  width: 57.5rem;
+  height: 31.8125rem;
+  left: 17.5625rem;
+  top: 8.0625rem;
+  display: flex;
+  flex-direction: row;
+
 
 }
 
-.images {
-  height: 31.25rem;
-  width: 40%;
+.images-section {
+  background-color: #fff;
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  width: 50%
+}
+
+.box-desktop {
+  position: absolute;
+  top: 8rem;
+  left: -2.7rem;
+  width: 5.585rem;
+  height: 6.60375rem;
+  z-index: 2;
+}
+
+.online-desktop {
+  position: absolute;
+  top: 2rem;
+  left: -2rem;
+  width: 24rem;
+  height: 18.254rem;
 }
 
 .faq-section {
-
+  width: 50%;
 }
 
+.faq-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #1E1F36;
+}
 
+.accordion-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: .75rem;
+  line-height: 1.125rem;
+  color: #787887;
+}
 
 .attribution {
   font-size: 11px;
