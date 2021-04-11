@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 :root {
   --veryDarkdesaturatedBlue: hsl(238, 29%, 16%);
   --softRed: hsl(14, 88%, 65%);
@@ -14,77 +8,104 @@
   --lightGrayishBlue: hsl(240, 5%, 91%);
 }
 
+html {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  background: linear-gradient(180deg,var(--softViolet) 0%, var(--softBlue) 100%) no-repeat;
+  background: linear-gradient(180deg, var(--softViolet) 0%, var(--softBlue) 100%) no-repeat;
   background-size: cover;
   font-family: 'Kumbh Sans', sans-serif;
   font-size: .75rem;
   position: relative;
 }
 
-.centered {
-  position: relative;
-  top: 50%;
-  transform: translateY(-25%);
+.card-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.container {
+.faq-card {
   background-color: #fff;
   position: relative;
   width: 57.5rem;
   height: 31.8125rem;
-  left: 17.5625rem;
-  top: 8.0625rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: row;
-
-
+  overflow: visible;
+  position: relative;
 }
 
 .images-section {
   background-color: #fff;
   background-image: url("../images/bg-pattern-desktop.svg");
   background-repeat: no-repeat;
-  width: 50%
+  background-position: right 0% bottom 0%;
+  background-size: 80%;
+  width: 50%;
 }
 
 .box-desktop {
   position: absolute;
-  top: 8rem;
+  top: 17rem;
   left: -2.7rem;
   width: 5.585rem;
-  height: 6.60375rem;
+  height: 5.118rem;
+  overflow: visible;
   z-index: 2;
 }
 
 .online-desktop {
   position: absolute;
-  top: 2rem;
-  left: -2rem;
-  width: 24rem;
-  height: 18.254rem;
+  top: 5rem;
+  left: -4.5rem;
+  width: 28rem;
+  height: 22.254rem;
 }
 
 .faq-section {
   width: 50%;
+  position: relative;
+}
+
+.accordionMain {
+  position: absolute;
+  top: 50px;
 }
 
 .faq-header {
+  color: #1E1F36;
+  font-size: 2rem;
   font-style: normal;
   font-weight: bold;
-  font-size: 2rem;
   line-height: 2rem;
-  color: #1E1F36;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.accordion-item {
+
+.question {
+  font-style: normal;
+  font-weight: normal;
+  font-size: .875rem;
+  line-height: .875rem;
+  color: #4B4C5F;
+}
+
+.answer {
   font-style: normal;
   font-weight: normal;
   font-size: .75rem;
   line-height: 1.125rem;
   color: #787887;
 }
+
 
 .attribution {
   font-size: 11px;
