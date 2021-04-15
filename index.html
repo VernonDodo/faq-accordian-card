@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -19,78 +19,39 @@
   <div class="container card-container">
     <div class="container faq-card">
 
-        <div class="col-lg-6 images-section">
-          <img class="box-desktop" src="images/illustration-box-desktop.svg" alt="Illustration Box">
-          <img class="online-desktop" src="images/illustration-woman-online-desktop.svg" alt="">
-        </div>
+      <div class="col-lg-6 images-section">
+        <img class="box-desktop" src="images/illustration-box-desktop.svg" alt="Illustration Box">
+        <img class="online-desktop" src="images/illustration-woman-online-desktop.svg" alt="">
+      </div>
 
-        <div class="col-lg-6 faq-section">
-          <h2 class="faq-header">FAQ</h2>
-          <div class="accordion accordion-flush" id="accordionMain">
-            <div class="accordion-item">
-              <h2 class="accordion-header question" id="questionOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answerOne" aria-expanded="false" aria-controls="answerOne">
-                  How many team members can I invite?
-                </button>
-              </h2>
-              <div id="answerOne" class="accordion-collapse collapse" aria-labelledby="questionOne" data-bs-parent="#accordionMain">
-                <p class="accordion-body answer">
-                  You can invite up to 2 additional users on the Free plan. There is no limit on
-                  team members for the Premium plan.
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header question" id="questionTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answerTwo" aria-expanded="false" aria-controls="answerTwo">
-                    What is the maximum file upload size?
-                </button>
-              </h2>
-              <div id="answerTwo" class="accordion-collapse collapse" aria-labelledby="questionTwo" data-bs-parent="#accordionMain">
-                <p class="accordion-body answer">
-                  No more than 2GB. All files in your account must fit your allotted storage space.
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header question" id="questionThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answerThree" aria-expanded="false" aria-controls="answerThree">
-                    How do I reset my password?
-                </button>
-              </h2>
-              <div id="answerThree" class="accordion-collapse collapse" aria-labelledby="questionThree" data-bs-parent="#accordionMain">
-                <p class="accordion-body answer">
-                  Click “Forgot password” from the login page or “Change password” from your profile page.
+      <div class="col-lg-6 faq-section">
+        <h2 class="faq-header">FAQ</h2>
+        <div class="accordion accordion-flush" id="accordionMain">
+          <button class="accordion-button question">How many team members can I invite?</button>
+          <div class="panel answer">
+            <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.
+            </p>
+          </div>
+          <button class="accordion-button question">What is the maximum upload size?</button>
+          <div class="panel answer">
+            <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+          <button class="accordion-button question">How do I reset my password?</button>
+          <div class="panel answer">
+            <p>Click “Forgot password” from the login page or “Change password” from your profile page.
                   A reset link will be emailed to you.
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header question" id="questionFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answerFour" aria-expanded="false" aria-controls="answerFour">
-                  Can I cancel my subscription?
-                </button>
-              </h2>
-              <div id="answerFour" class="accordion-collapse collapse" aria-labelledby="questionFour" data-bs-parent="#accordionMain">
-                <p class="accordion-body answer">
-                  Yes! Send us a message and we’ll process your request no questions asked.
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header question" id="questionFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answerFive" aria-expanded="false" aria-controls="answerFive">
-                  Do you provide additional support?
-                </button>
-              </h2>
-              <div id="answerFive" class="accordion-collapse collapse" aria-labelledby="questionFive" data-bs-parent="#accordionMain">
-                <p class="accordion-body answer">
-                    Chat and email support is available 24/7. Phone lines are open during normal business hours.
-                </p>
-              </div>
-            </div>
+            </p>
+          </div>
+          <button class="accordion-button question">Can I cancel my subscription?</button>
+          <div class="panel answer">
+            <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+          <button class="accordion-button question">Do you provide additional support?</button>
+          <div class="panel answer">
+            <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.           </p>
           </div>
         </div>
+      </div>
 
     </div>
   </div>
@@ -100,6 +61,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+  <script src="js/main.js"></script>
 </body>
 
 </html>

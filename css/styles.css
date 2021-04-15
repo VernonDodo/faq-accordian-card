@@ -89,13 +89,24 @@ body {
   padding-bottom: 2rem;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+  color: #4B4C5F;
+  transition: 0.4s;
+}
 
 .question {
   font-style: normal;
   font-weight: normal;
   font-size: .875rem;
   line-height: .875rem;
-  color: #4B4C5F;
+  
+}
+
+.panel {
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
 }
 
 .answer {
