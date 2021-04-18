@@ -39,14 +39,14 @@ body {
   display: flex;
   flex-direction: row;
   overflow: visible;
-  position: relative;
+
 }
 
 .images-section {
   background-color: #fff;
   background-image: url("../images/bg-pattern-desktop.svg");
   background-repeat: no-repeat;
-  background-position: right 0% bottom 0%;
+  background-position: right 0 bottom 0;
   background-size: 80%;
   width: 50%;
 }
@@ -91,6 +91,7 @@ body {
 
 .accordion-button:not(.collapsed) {
   background-color: #fff;
+  background-image: url("../images/icon-arrow-down.svg") no-repeat;
   color: #4B4C5F;
   transition: 0.4s;
 }
@@ -100,14 +101,17 @@ body {
   font-weight: normal;
   font-size: .875rem;
   line-height: .875rem;
-  
+
 }
 
+
 .panel {
-  padding: 0;
+  margin-left: 1.2rem;
   max-height: 0;
+  padding: 0;
   overflow: hidden;
 }
+
 
 .answer {
   font-style: normal;
