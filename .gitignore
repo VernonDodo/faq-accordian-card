@@ -16,6 +16,10 @@
 
 .prettierignore
 
-faq-accordion-card-figma
+/faq-accordion-card-figma
 
-design
+/design
+
+README-template.md
+
+style-guide.md
