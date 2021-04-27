@@ -39,15 +39,15 @@ body {
   display: flex;
   flex-direction: row;
   overflow: visible;
-  position: relative;
   padding-left: 0;
+
 }
 
 .images-section {
   background-color: #fff;
   background-image: url("../images/bg-pattern-desktop.svg");
   background-repeat: no-repeat;
-  background-position: right 0% bottom 0%;
+  background-position: right 0 bottom 0;
   background-size: 80%;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
@@ -92,14 +92,29 @@ body {
   padding-bottom: 2rem;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+  background-image: url("../images/icon-arrow-down.svg") no-repeat;
+  color: #4B4C5F;
+  transition: 0.4s;
+}
 
 .question {
   font-style: normal;
   font-weight: normal;
   font-size: .875rem;
   line-height: .875rem;
-  color: #4B4C5F;
+
 }
+
+
+.panel {
+  margin-left: 1.2rem;
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 
 .answer {
   font-style: normal;
