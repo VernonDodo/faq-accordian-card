@@ -39,6 +39,7 @@ body {
   display: flex;
   flex-direction: row;
   overflow: visible;
+  padding-left: 0;
 
 }
 
@@ -48,6 +49,8 @@ body {
   background-repeat: no-repeat;
   background-position: right 0 bottom 0;
   background-size: 80%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
   width: 50%;
 }
 
@@ -120,6 +123,8 @@ body {
   line-height: 1.125rem;
   color: #787887;
 }
+
+
 
 
 .attribution {
