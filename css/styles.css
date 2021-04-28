@@ -124,6 +124,10 @@ body {
   color: #787887;
 }
 
+.open {
+  max-height: 52px;
+}
+
 
 
 
