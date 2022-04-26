@@ -63,13 +63,8 @@ Desktop Active
 ### What I learned
 I have a good grasp of HTML. What this particular challenge has helped me with, was to improve on my CSS skills.
 
-On the Javascript front, I struggled with adding event listeners to elements but I finally perservered. I am particularly proud of the following piece of code to toggle the accordion button:
+On the Javascript front, I struggled with adding event listeners to elements but I finally perservered. On the positive side, I learnt to write shorter, smarter code with JQuery.
 
-if (panel.style.maxHeight) {
-  panel.style.maxHeight = null;
-} else {
-  panel.style.maxHeight = panel.scrollHeight + "px";
-}
 
 ### Continued development
 
@@ -87,5 +82,3 @@ components.
 - Github - [Vernon Dodo](https://github.com/VernonDodo)
 - Frontend Mentor - [@VernonDodo](https://www.frontendmentor.io/profile/VernonDodo)
 - Twitter - [@likeavernon](https://www.twitter.com/likeavernon)
-
-
