@@ -16,7 +16,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -63,8 +63,13 @@ Desktop Active
 ### What I learned
 I have a good grasp of HTML. What this particular challenge has helped me with, was to improve on my CSS skills.
 
-On the Javascript front, I struggled with adding event listeners to elements but I finally perservered. On the positive side, I learnt to write shorter, smarter code with JQuery.
+On the Javascript front, I struggled with adding event listeners to elements but I finally perservered. I am particularly proud of the following piece of code to toggle the accordion button:
 
+if (panel.style.maxHeight) {
+  panel.style.maxHeight = null;
+} else {
+  panel.style.maxHeight = panel.scrollHeight + "px";
+}
 
 ### Continued development
 
