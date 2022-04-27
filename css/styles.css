@@ -117,6 +117,10 @@ body {
   font-weight: bolder;
 }
 
+.question:focus {
+  font-weight: bolder;
+}
+
 .panel {
   margin-left: 1.2rem;
   max-height: 0;
