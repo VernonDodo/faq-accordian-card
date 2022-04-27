@@ -73,7 +73,8 @@ body {
   position: absolute;
   top: 3.75rem;
   left: -4.8125rem;
-  z-index: -1;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .online-mobile {
@@ -83,11 +84,13 @@ body {
 .faq-section {
   width: 50%;
   position: relative;
+  z-index: 3;
 }
 
 .accordionMain {
   position: absolute;
   top: 50px;
+
 }
 
 .faq-header {
@@ -128,6 +131,8 @@ body {
   padding: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  z-index: 3;
+  background-color: inherit;
 }
 
 .answer {
